@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cinematic Curtain Reveal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="theater-container">
+        <div class="vignette"></div>
+        <div class="stage">
+            <div class="content">
+                <h1>NOW SHOWING</h1>
+                <div class="movie-poster">
+                    <div class="poster-placeholder">
+                        <span class="sparkle"></span>
+                        <h2>THE GREAT ADVENTURE</h2>
+                        <p>A Visual Masterpiece</p>
+                    </div>
+                </div>
+                <button id="close-curtains">Close Curtains</button>
+            </div>
+
+            <canvas id="curtain-canvas"></canvas>
+
+            <div class="floor"></div>
+            <div class="spotlight"></div>
+        </div>
+
+        <div class="controls">
+            <button id="open-curtains">Open Curtains</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
